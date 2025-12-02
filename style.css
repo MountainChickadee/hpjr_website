@@ -1,0 +1,47 @@
+:root {
+  --light-gray: #BFBDC1;
+  --slate-gray: #6D6A75;
+  --charcoal:  #37323E;
+  --wheat-gold: #DEB841;
+  --burnt-gold: #DE9E36;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#nav_main {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--charcoal);
+    color: var(--light-gray);
+}
+
+.header {
+    background-color: var(--charcoal);
+    color: var(--light-gray);
+}
+
+.section_2 {
+    background-color: var(--light-gray);
+}
+
+.section_3 {
+    background-color: var(--burnt-gold);
+}
+
+.section_4 {
+    background-color: var(--charcoal);    
+}
+
+.footer {
+    background-color: var(--light-gray);
+}
+
+
+/*
+I want to do an effect over links 
+.main-nav a:hover,
+.main-nav a:focus {*/
+
+
