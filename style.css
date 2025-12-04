@@ -8,6 +8,9 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin:	0% 0% 0% 0%;
+    padding: 0;
 }
 
 #nav_main {
@@ -15,15 +18,29 @@
     justify-content: space-around;
     background-color: var(--charcoal);
     color: var(--light-gray);
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .header {
     background-color: var(--charcoal);
     color: var(--light-gray);
+    display: flex;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.other_title_color {
+   color: var(--wheat-gold); 
 }
 
 .section_2 {
     background-color: var(--light-gray);
+    color: var(--charcoal);
 }
 
 .section_3 {
@@ -36,6 +53,18 @@
 
 .footer {
     background-color: var(--light-gray);
+}
+
+button {
+    background-color: var(--wheat-gold);
+    color: var(--charcoal);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 
