@@ -8,30 +8,40 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     margin:	0% 0% 0% 0%;
     padding: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--light-gray);
+}
+
 #nav_main {
+    background-color: var(--charcoal);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#nav_main ul {
     display: flex;
     justify-content: space-around;
-    background-color: var(--charcoal);
-    color: var(--light-gray);
     list-style-type: none;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
 }
 
-.header {
+#nav_main a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+header {
     background-color: var(--charcoal);
     color: var(--light-gray);
     display: flex;
-}
-
-.title {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
 }
 
 .other_title_color {
@@ -45,14 +55,16 @@
 
 .section_3 {
     background-color: var(--burnt-gold);
+    color: var(--charcoal);
 }
 
 .section_4 {
     background-color: var(--charcoal);    
 }
 
-.footer {
+footer {
     background-color: var(--light-gray);
+    color: var(--charcoal);
 }
 
 button {
@@ -62,7 +74,7 @@ button {
     text-transform: uppercase;
 }
 
-.heading {
+h1, h2, h4 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
