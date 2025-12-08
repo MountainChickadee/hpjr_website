@@ -86,6 +86,12 @@ header h1 {
     color: var(--charcoal);
 }
 
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
 .section_3 {
     background-color: var(--burnt-gold);
     color: var(--charcoal);
@@ -107,6 +113,9 @@ button {
     text-transform: uppercase;
     letter-spacing: 0.05em;
 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     padding: 0.75rem 1.75rem;
     border: none;
@@ -128,6 +137,7 @@ h1 {
 
 h2 {
     font-size: 1.9rem;
+    padding: 1rem 0 1rem 0;
 }
 
 h3 {
