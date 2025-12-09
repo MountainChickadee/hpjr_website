@@ -30,6 +30,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .center {
@@ -55,14 +56,12 @@ body {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     padding: 1rem;
-
 }
 
 #nav_main ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-
 }
 
 #nav_main a {
@@ -121,6 +120,7 @@ button {
     border: none;
     border-radius: 10px;
     margin: 1rem;
+    max-height: 3rem;
 
     font-size: 1rem;
     font-weight: 600;
@@ -132,11 +132,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding: 1rem 0 1rem 0;
 }
 
@@ -145,8 +145,18 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    padding-bottom: 1rem;
+}
+
 ul {
     list-style-type: none;
+    line-height: 2rem;
+    font-weight: 450;
+}
+
+section {
+    padding-bottom: 2rem;
 }
 /*
 I want to do an effect over links 
