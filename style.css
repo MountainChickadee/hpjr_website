@@ -6,6 +6,13 @@
   --burnt-gold: #DE9E36;
 }
 
+/* might make two different headers for mobile and desktop
+    @media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+} */
+
 * {
     box-sizing: border-box;
     margin:	0% 0% 0% 0%;
@@ -66,6 +73,7 @@ body {
 header {
     background-color: var(--charcoal);
     color: var(--light-gray);
+    
 }
 
 header h1 {
