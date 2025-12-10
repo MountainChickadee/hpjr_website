@@ -163,6 +163,10 @@ section {
     background-color: var(--wheat-gold);
     padding: 1rem;
 }
+
+.gray {
+    background-color: var(--light-gray);
+}
 /*
 I want to do an effect over links 
 .main-nav a:hover,
