@@ -81,16 +81,9 @@ header h1 {
   line-height: .9;
 }
 
-
 .section_2 {
     background-color: var(--light-gray);
     color: var(--charcoal);
-}
-
-.list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px;
 }
 
 .section_3 {
@@ -102,9 +95,10 @@ header h1 {
     background-color: var(--charcoal);    
 }
 
-.section_5 {
-    background-color: var(--charcoal);
-    color: var(--burnt-gold);
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
 }
 
 footer {
@@ -180,6 +174,37 @@ section {
 .gray {
     background-color: var(--light-gray);
 }
+
+.contact-page {
+    background-color: var(--light-gray);
+    color: var(--charcoal);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+
+  background-color: var(--charcoal);
+  color: var(--light-gray);
+}
+
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.icon {
+    fill: var(--light-gray);
+    width: 3.5rem;
+    height: auto;
+}
+
+
 /*
 I want to do an effect over links 
 .main-nav a:hover,
