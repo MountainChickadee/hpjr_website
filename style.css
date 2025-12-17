@@ -205,14 +205,23 @@ section {
 
 .icon {
     fill: var(--light-gray);
-    width: 3.5rem;
+    width: 4rem;
     height: auto;
+    padding-right: 1rem;
+
 }
 
+.contact-info {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid var(--light-gray);
+}
 
-/*
-I want to do an effect over links 
-.main-nav a:hover,
-.main-nav a:focus {*/
+.contact-grid h2, .contact-grid h4, .contact-grid p {
+    padding: 0;
+}
 
-
+.form {
+    background-color: var(--burnt-gold);
+}
