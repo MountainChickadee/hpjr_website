@@ -189,9 +189,9 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  max-width: 1000px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 3rem 0rem 0rem 1.25rem;
 
   background-color: var(--charcoal);
   color: var(--light-gray);
@@ -222,6 +222,31 @@ section {
     padding: 0;
 }
 
-.form {
+form {
     background-color: var(--burnt-gold);
+    padding: 1.5rem 2rem;
+    height: 100%;
+    width: 17rem;
+    transform: translateY(-5rem);
+}
+
+label {
+    color: var(--charcoal);
+    font-weight: 500;
+}
+input {
+    background-color: var(--light-gray);
+    width: 100%;
+    min-height: 2rem;
+}
+
+textarea {
+    width: 100%;
+    min-height: 5rem;
+    background-color: var(--light-gray);
+}
+
+.contact-button {
+    background-color: var(--charcoal);
+    color: var(--light-gray);
 }

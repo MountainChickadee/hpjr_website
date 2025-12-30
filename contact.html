@@ -41,7 +41,7 @@
 
     <section class="contact-page">
         <div class="page-wrapper">
-            <h4>Contact Us</h4>
+            <h2>Contact Us</h2>
             <div class="contact-grid">
                 <div>
                     <div>
@@ -69,10 +69,22 @@
                         </div>
                     </div>
                 </div>
+                <form class="form flex-col" method="post" action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
 
-                <div class="form">
-                    
-                </div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone">
+
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+
+                    <button type="submit" class="contact-button">Send Message</button>
+
+                </form>    
 
             </div>
         </div>
