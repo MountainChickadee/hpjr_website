@@ -6,13 +6,6 @@
   --burnt-gold: #DE9E36;
 }
 
-/* might make two different headers for mobile and desktop
-    @media only screen and (max-width: 767px) {
-    header {
-        display: none;
-    }
-} */
-
 * {
     box-sizing: border-box;
     margin:	0% 0% 0% 0%;
@@ -63,6 +56,12 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#nav_main li {
+  white-space: nowrap;
 }
 
 #nav_main a {
@@ -186,20 +185,11 @@ section {
 }
 
 .contact-grid {
-    display: flexbox;
-    gap: 2rem;
     max-width: 600px;
     margin: 0 auto;
     padding: 3rem;
-
     background-color: var(--charcoal);
     color: var(--light-gray);
-}
-
-@media (max-width: 700px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .icon {
@@ -207,7 +197,6 @@ section {
     width: 4rem;
     height: auto;
     padding-right: 1rem;
-
 }
 
 .contact-info {
@@ -217,33 +206,18 @@ section {
     border-top: 1px solid var(--light-gray);
 }
 
-    padding: 0;
-
-form {
-    background-color: var(--burnt-gold);
-    padding: 1.5rem 2rem;
-    height: 100%;
-    width: 17rem;
-    transform: translateY(-5rem);
+@media (max-width: 700px) {
+    .flex-row {
+        flex-direction: column;
+    }
+    #nav_main ul {
+        justify-content: center;
+        gap: 0.75rem 1rem;
+    }
 }
 
-label {
-    color: var(--charcoal);
-    font-weight: 500;
-}
-input {
-    background-color: var(--light-gray);
-    width: 100%;
-    min-height: 2rem;
-}
-
-textarea {
-    width: 100%;
-    min-height: 5rem;
-    background-color: var(--light-gray);
-}
-
-.contact-button {
-    background-color: var(--charcoal);
-    color: var(--light-gray);
+@media (max-width: 450px) {
+    #nav_main ul {
+        grid-template-columns: 1fr;
+    }
 }
