@@ -1,8 +1,6 @@
 :root {
   --light-gray: #BFBDC1;
-  --slate-gray: #6D6A75;
   --charcoal:  #37323E;
-  --wheat-gold: #DEB841;
   --burnt-gold: #DE9E36;
 }
 
@@ -107,7 +105,7 @@ footer {
 }
 
 .butt {
-    background-color: var(--wheat-gold);
+    background-color: var(--burnt-gold);
     color: var(--charcoal);
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -172,7 +170,7 @@ section {
 }
 
 .card {
-    background-color: var(--wheat-gold);
+    background-color: var(--burnt-gold);
     padding: 1rem;
 }
 
