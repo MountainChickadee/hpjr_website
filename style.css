@@ -106,12 +106,13 @@ footer {
         padding: 1rem 0; 
 }
 
-button {
+.butt {
     background-color: var(--wheat-gold);
     color: var(--charcoal);
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    text-decoration: none;
 
     display: inline-flex;
     align-items: center;
