@@ -186,15 +186,14 @@ section {
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 3rem 0rem 0rem 1.25rem;
+    display: flexbox;
+    gap: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
 
-  background-color: var(--charcoal);
-  color: var(--light-gray);
+    background-color: var(--charcoal);
+    color: var(--light-gray);
 }
 
 @media (max-width: 700px) {
@@ -218,9 +217,7 @@ section {
     border-top: 1px solid var(--light-gray);
 }
 
-.contact-grid h2, .contact-grid h4, .contact-grid p {
     padding: 0;
-}
 
 form {
     background-color: var(--burnt-gold);
