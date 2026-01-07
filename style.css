@@ -238,6 +238,6 @@ section {
         padding: 1.5rem;
     }
     .icon {
-        width: 2rem;
+        display: none;
     }
 }
