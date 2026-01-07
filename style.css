@@ -120,10 +120,14 @@ footer {
     border: none;
     border-radius: 10px;
     margin: 1rem;
-    max-height: 3rem;
+
 
     font-size: 1rem;
     font-weight: 600;
+
+    white-space: normal;
+    text-align: center;
+    line-height: 1.2;
 }
 
 h1, h2, h3, h4 {
@@ -147,6 +151,7 @@ h3 {
 
 h4 {
     padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -200,7 +205,7 @@ section {
 
 .contact-info {
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     padding: 1rem 0;
     border-top: 1px solid var(--light-gray);
 }
@@ -212,6 +217,15 @@ section {
     #nav_main ul {
         justify-content: center;
         gap: 0.75rem 1rem;
+    }
+    .section_4 .flex-row {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1.25rem;
+    }
+    .contact-info {
+        flex-direction: row;
     }
 }
 
