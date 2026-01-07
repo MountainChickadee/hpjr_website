@@ -151,7 +151,6 @@ h3 {
 
 h4 {
     padding-bottom: 1rem;
-    font-size: 1.5rem;
 }
 
 ul {
@@ -227,10 +226,18 @@ section {
     .contact-info {
         flex-direction: row;
     }
+    .contact-grid {
+        padding: 2rem;
+    }
 }
-
 @media (max-width: 450px) {
     #nav_main ul {
         grid-template-columns: 1fr;
+    }
+    .contact-grid {
+        padding: 1.5rem;
+    }
+    .icon {
+        width: 2rem;
     }
 }
