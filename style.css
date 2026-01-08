@@ -8,6 +8,12 @@
     box-sizing: border-box;
     margin:	0% 0% 0% 0%;
     padding: 0;
+    
+}
+
+html,body {
+  min-height: 100%;
+  background-color: var(--light-gray)
 }
 
 html {
@@ -207,6 +213,11 @@ section {
     align-items: flex-start;
     padding: 1rem 0;
     border-top: 1px solid var(--light-gray);
+}
+
+.contact-info, a {
+    text-decoration: none;
+    color: var(--light-gray);
 }
 
 @media (max-width: 700px) {
